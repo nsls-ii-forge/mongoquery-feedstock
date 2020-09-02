@@ -1,6 +1,6 @@
 {% set name = "mongoquery" %}
-{% set version = "1.2.0" %}
-{% set sha256 = "2a996a0c78bd273e0be59b0592ce4f118b9db084c4920b58de1a1f94e837d06a" %}
+{% set version = "1.3.0" %}
+{% set sha256 = "381c092dafd6f36ab919e3a879ea60811394e46b77e652dc9b2927f2707d7b8b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -31,8 +31,4 @@ about:
   license: Public Domain
   license_file: LICENSE
   summary: >
-    A utility library that provides a MongoDB-like query
-    language for querying python collections. It's mainly
-    intended to parse objects structured as fundamental types in
-    a similar fashion to what is produced by JSON or YAML
-    parsers.
+    A utility library that provides a MongoDB-like query language for querying python collections. It's mainly intended to parse objects structured as fundamental types in a similar fashion to what is produced by JSON or YAML parsers.
