@@ -7,8 +7,7 @@ Package license: Public Domain
 
 Feedstock license: BSD-3-Clause
 
-Summary: A utility library that provides a MongoDB-like query language for querying python collections. It's mainly intended to parse objects structured as fundamental types in a similar fashion to what is produced by JSON or YAML parsers.
-
+Summary: A utility library that provides a MongoDB-like query language for querying python collections. It is mainly intended to parse objects structured as fundamental types in a similar fashion to what is produced by JSON or YAML parsers.
 
 
 
